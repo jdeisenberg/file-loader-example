@@ -16,3 +16,5 @@ The program has an `<Animal species="..." name="..." />` component, which, when 
 ![Four Animal components, one of each type, in vertical line](/screenshot.png)
 
 Be sure to look at `webpack.config.js`; it needs additions to allow `file-loader` to do its work.
+
+Artwork is from https://openclipart.org
