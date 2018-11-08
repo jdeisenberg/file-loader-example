@@ -19,7 +19,10 @@ module.exports = {
     })
   ],
   /*
-   * Addition to template's webpack.config.js starts here
+   * Addition to template's webpack.config.js starts here.
+   * In `'[path][name].[ext]`, [path] is, as stated in the
+   * `file-loader` documentation, the path of the
+   * resource relative to the webpack/config context.
    */
   module: {
     rules: [
